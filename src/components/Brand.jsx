@@ -7,17 +7,17 @@ const Brand = () => {
     <div>
       <div className="relative">
 
-        <div className="z-10 shadow-[0px_0px_8px_3px_#00000024] absolute top-[-20px] mt-[80px] sm:mt-[40px] md:mt-[20px]  sm:top-[-30px] md:top-[-60px] lg:top-[-90px] 
-         left-[15px] sm:left-[50px] md:left-[80px] flex justify-between gap-8 bg-[#EDEDED] rounded-[20px] items-center">
+        <div className="z-10 shadow-[0px_0px_8px_3px_#00000024] absolute top-[-20px] sm:top-[-30px] md:top-[-60px] lg:top-[-90px] 
+         left-[15px] sm:left-[50px] md:left-[80px] flex justify-between gap-4 bg-[#EDEDED] rounded-[20px] items-center">
           <div>
-            <img src={profile} alt="" className="z-10 h-[130px] md:h-[150px] lg:h-[180px] xl:h-[220px] " />
+            <img src={profile} alt="" className="z-10 h-[105px] sm:h-[140px] md:h-[160px] lg:h-[180px] xl:h-[220px] " />
           </div>
-          <div className="w-[200px] sm:w-[250px] md:w-[300px] m-auto flex flex-col gap-1 md:gap-3 lg:gap-4 xl:gap-5 pr-10">
+          <div className="w-[150px] sm:w-[250px] md:w-[300px] m-auto flex flex-col gap-1 md:gap-3 lg:gap-4 xl:gap-5 pr-5 py-[6px]">
             <div className="flex flex-col md:flex-row md:items-center justify-between">
-                <h2 className="text-[18px] md:text-[24px]  font-bold">DANE MACE</h2>
-                <p className="text-[10px] md:text-[14px] text-[#696969]">/Johny_Films/</p>
+                <h2 className="text-[15px] sm:[18px] md:text-[24px]  font-bold">DANE MACE</h2>
+                <p className="text-[7px] sm:text-[10px] md:text-[14px] text-[#696969]">/Johny_Films/</p>
             </div>
-            <div className=" text-[10px] md:text-[14px] text-[#696969]">
+            <div className=" text-[7px] sm:text-[10px] md:text-[14px] text-[#696969]">
                 <p className="font-bold">Bio</p>
                 <span>Simply a film fan creating original content for YouTube. Let’s Collaborate.</span>
             </div>
