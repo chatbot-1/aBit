@@ -38,7 +38,7 @@ const Body = () => {
 
         <div className="flex container flex-col md:flex-row mt-[100px] gap-10">
           <div className="flex justify-center md:justify-start transition-all duration-300 ease-in hover:scale-105">
-            <div className="h-[312px] cursor-pointer relative w-[283.64px] rounded-[25px] bg-[#EDEDED] shadow-[0px_0px_10px_2px_#00000024]">
+            <div className="h-[312px] cursor-pointer relative w-[283.64px] rounded-[25px] bg-[#EDEDED]">
               <p className="flex justify-center items-center h-full text-[60px] text-[#95959593]">
                 +
               </p>
