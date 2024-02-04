@@ -8,7 +8,7 @@ const Brand = () => {
       <div className="relative">
 
         <div className="z-10 shadow-[0px_0px_10px_8px_#00000024] absolute top-[-20px] mt-[80px] sm:mt-[40px] md:mt-[20px]  sm:top-[-30px] md:top-[-60px] lg:top-[-90px] 
-         left-[15px] sm:left-[50px] md:left-[80px] flex justify-between gap-8 bg-[#EDEDED] rounded-2xl items-center">
+         left-[15px] sm:left-[50px] md:left-[80px] flex justify-between gap-8 bg-[#EDEDED] rounded-[20px] items-center">
           <div>
             <img src={profile} alt="" className="z-10 h-[130px] md:h-[150px] lg:h-[180px] xl:h-[220px] " />
           </div>
@@ -22,7 +22,7 @@ const Brand = () => {
                 <span>Simply a film fan creating original content for YouTube. Let’s Collaborate.</span>
             </div>
             <div className="border-[1px] border-black flex justify-between rounded-md text-[10px] bg-[#0000008e] md:text-[14px]">
-                <a className="border-r-[1px] rounded-md border-black flex justify-center font-play items-center bg-white w-[50%]">Creator</a>
+                <a className="border-r-[1px]  border-black flex justify-center rounded-md font-play items-center bg-white w-[50%]">Creator</a>
                 <a className="w-[50%]"></a>
             </div>
           </div>
