@@ -7,7 +7,7 @@ const Brand = () => {
     <div>
       <div className="relative">
 
-        <div className="z-10 shadow-[0px_0px_10px_8px_#00000024] absolute top-[-20px] mt-[80px] sm:mt-[40px] md:mt-[20px]  sm:top-[-30px] md:top-[-60px] lg:top-[-90px] 
+        <div className="z-10 shadow-[0px_0px_8px_3px_#00000024] absolute top-[-20px] mt-[80px] sm:mt-[40px] md:mt-[20px]  sm:top-[-30px] md:top-[-60px] lg:top-[-90px] 
          left-[15px] sm:left-[50px] md:left-[80px] flex justify-between gap-8 bg-[#EDEDED] rounded-[20px] items-center">
           <div>
             <img src={profile} alt="" className="z-10 h-[130px] md:h-[150px] lg:h-[180px] xl:h-[220px] " />
